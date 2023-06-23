@@ -3,26 +3,23 @@ import Header from "@components/Header";
 import Footer from "@components/Footer";
 import FeedbackForm from "@components/FeedbackForm";
 import JokeBlock from "@components/JokeBlock";
+import SecondFrame from "@components/secondFrame";
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Toolbox</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Round Glass Media</title>
+        <link rel="icon" href="/eyeglass.png" />
       </Head>
 
       <main>
         <Header title="Next.js Toolbox" />
         <hr />
-        <p className="description">
-          Here's an example of a Netlify Form! When you fill this out, the
-          submissions can be found in the Netlify Admin site.
-        </p>
-        <FeedbackForm />
-        <JokeBlock />
+        <p className="description"></p>
+        <SecondFrame></SecondFrame>
       </main>
-      <Footer />
+
     </div>
   );
 }
