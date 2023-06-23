@@ -10,6 +10,12 @@ body {
   box-sizing: border-box;
 }
 
+.container {
+  position: fixed;
+  width: 1200px;
+  height: auto;
+}
+
 
 main {
   padding: 2rem 20px;

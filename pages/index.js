@@ -4,22 +4,22 @@ import Footer from "@components/Footer";
 import FeedbackForm from "@components/FeedbackForm";
 import JokeBlock from "@components/JokeBlock";
 import SecondFrame from "@components/secondFrame";
+import LandingFrame from "@components/LandingFrame";
 
 export default function Home() {
   return (
     <div className="container">
-      <Head>
-        <title>Round Glass Media</title>
-        <link rel="icon" href="/eyeglass.png" />
-      </Head>
+    <Head>
+      <title>Round Glass Media</title>
+      <link rel="icon" href="/eyeglass.png" />
+    </Head>
+    <LandingFrame />
+      < SecondFrame />
 
-      <main>
-        <Header title="Next.js Toolbox" />
-        <hr />
-        <p className="description"></p>
-        <SecondFrame></SecondFrame>
-      </main>
+    <main>
+    </main>
 
-    </div>
+  </div>
+
   );
 }

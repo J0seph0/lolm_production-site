@@ -1,9 +1,9 @@
 import styles from './SecondFrame.module.css'
 
-export default function Footer() {
+export default function SecondFrame() {
   return (
-    <div className='secondFrame'>
-
+    <div className={styles.SecondFrame}>
+        <main></main>
     </div>
   )
 }

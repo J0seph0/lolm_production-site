@@ -1,9 +1,9 @@
 import styles from './LandingFrame.module.css'
 
-export default function Footer() {
+export default function LandingFrame() {
   return (
-    <div className='landingFrame'>
-
-    </div>
+        <div className={styles.landingFrame} >
+        &nbsp
+        </div>
   )
 }

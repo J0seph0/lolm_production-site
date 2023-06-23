@@ -1,6 +1,7 @@
 .landingFrame {
-background-color: aqua;
-width: relative ;
-height: fit-content;
-position: relative;
+    background-color: aqua;
+    content: " ";
+    width: relative ;
+    height: 50;
+    position: relative;
 }

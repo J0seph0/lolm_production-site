@@ -1,8 +1,7 @@
 .secondFrame {
+    background-color: blueviolet;
     position: relative;
-    width: 1fr;
-    width: stretch;
-    height: fit-content;
-    height: auto;
+    width: relative;
+    height: 50;
 
 }
