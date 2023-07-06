@@ -3,21 +3,19 @@ import Header from "@components/Header";
 import Footer from "@components/Footer";
 import FeedbackForm from "@components/FeedbackForm";
 import JokeBlock from "@components/JokeBlock";
-import SecondFrame from "@components/secondFrame";
+import SecondFrame from "@components/SecondFrame";
 import LandingFrame from "@components/LandingFrame";
+import NavBar from "@components/NavBar";
 
 export default function Home() {
   return (
-    <div className="container">
+  <div className="container">
+
     <Head>
       <title>Round Glass Media</title>
       <link rel="icon" href="/eyeglass.png" />
     </Head>
-    <LandingFrame />
-      < SecondFrame />
-
-    <main>
-    </main>
+    <NavBar />
 
   </div>
 
