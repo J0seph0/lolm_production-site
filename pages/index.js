@@ -4,8 +4,9 @@ import Footer from "@components/Footer";
 import FeedbackForm from "@components/FeedbackForm";
 import JokeBlock from "@components/JokeBlock";
 import SecondFrame from "@components/SecondFrame";
-import LandingFrame from "@components/LandingFrame";
+import Main from "@components/Main";
 import NavBar from "@components/NavBar";
+import About from "@components/About";
 
 export default function Home() {
   return (
@@ -20,6 +21,8 @@ export default function Home() {
 
 
     <NavBar />
+    <Main /> 
+    <About />
 
   </div>
 
