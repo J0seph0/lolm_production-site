@@ -7,10 +7,11 @@ import SecondFrame from "@components/SecondFrame";
 import Main from "@components/Main";
 import NavBar from "@components/NavBar";
 import About from "@components/About";
+import Skills from "@components/Skills";
 
 export default function Home() {
   return (
-  <div className="container">
+  <div className="container cursor-[url(../public/Black_Box.png)]">
 
 
     <Head>
@@ -23,6 +24,7 @@ export default function Home() {
     <NavBar />
     <Main /> 
     <About />
+    <Skills />
 
   </div>
 

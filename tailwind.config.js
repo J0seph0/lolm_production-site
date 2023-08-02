@@ -8,7 +8,11 @@ module.exports = {
   // Or if using `src` directory:
   "./src/**/*.{js,ts,jsx,tsx,mdx}",],
   theme: {
-    extend: {},
+    extend: {
+      cursor: {
+        'fancy': 'url(hand.cur), pointer',
+      }
+    },
   },
   plugins: [],
 }
