@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react'
 import Link from 'next/link'
-import { Button } from './Button';
 import Image from 'next/image';
 import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai'
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa'

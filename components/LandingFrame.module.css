@@ -1,9 +1,0 @@
-.landingFrame {
-    display: inline-flex;
-    height: 1624px;
-    width: 2000;
-    padding: 329px 81px 804px 96px;
-    flex-direction: column;
-    align-items: center;
-    background-color: blue;
-}
