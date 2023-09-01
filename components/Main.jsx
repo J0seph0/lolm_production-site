@@ -17,10 +17,6 @@ const Main = () => {
                   <div className='w-[374px] h-[374px] rounded-full bg-black'></div>
                 </div>
               </Draggable>
-              <video width="100%">
-                <source src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4" type='video/mp4' />
-
-              </video>
           </div>
       </div>
     </div>
