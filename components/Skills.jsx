@@ -8,6 +8,7 @@ function Skills() {
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 justify-center">
 
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:-rotate-180 ease-in duration-500">
+          <label>Production</label>
           <img
             className="rounded "
             src="https://source.unsplash.com/LNerv625wis"
@@ -15,6 +16,7 @@ function Skills() {
         </div>
 
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:rotate-180 ease-in duration-500">
+          <label></label>
           <img
             className="rounded "
             src="https://source.unsplash.com/LNerv625wis"
