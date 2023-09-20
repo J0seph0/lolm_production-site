@@ -17,15 +17,15 @@ const NavBar = () => {
 
   return (
     <div className='fixed w-full h-20 shadow-xl z-[100]'>
-        <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 filter hue-rotate-30'>
+        <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 filter hue-rotate-30 bg-[#ffffff]'>
             <Image 
-                src="/../public/eyeglass.png" 
+                src="/../public/logo.png" 
                 alt="/" 
                 width='125' 
                 height='50'
             />
             <div>
-                <ul className='hidden md:flex'>
+                <ul className='hidden md:flex gap-[150px]'>
                     <Link href='/'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
                     </Link>

@@ -15,6 +15,10 @@
 # production
 /build
 
+#videos
+/public/LO_2022_editingreel.mp4
+/public/Page 42 Full Ad Final.mp4
+
 # misc
 .DS_Store
 

@@ -13,7 +13,7 @@ export default function Home() {
     <Head>
       <script src="https://kit.fontawesome.com/8eb4682278.js" crossorigin="anonymous"></script>
       <title>Round Glass Media</title>
-      <link rel="icon" href="/eyeglass.png" />
+      <link rel="icon" href="/logo.png" />
     </Head>
 
 
