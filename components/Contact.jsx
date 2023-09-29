@@ -13,7 +13,7 @@ const Contact = () => {
            Reach out to discuss how we can make it a reality.
           </p>
         </div>
-        <form action="#" class="space-y-8 w-[400px]">
+        <form action="https://formsubmit.co/921d92cb33bcaae0b0eceb2705f6c5f8" method="POST" class="space-y-8 w-[400px]">
           <div>
             <label
               for="email"
@@ -23,6 +23,7 @@ const Contact = () => {
             <input
               type="email"
               id="email"
+              name="email"
               class="border-none bg-[#ecf0f3] w-full"
               placeholder="Email"
               required
@@ -39,6 +40,7 @@ const Contact = () => {
             <input
               type="text"
               id="subject"
+              name="_subject"
               class="bg-[#ecf0f3] border-none w-full"
               placeholder="Subject"
               required
@@ -55,6 +57,7 @@ const Contact = () => {
             </label>
             <textarea
               id="message"
+              name="message"
               rows="6"
               class="bg-[#ecf0f3] border-none w-full"
               placeholder="Leave a comment..."
@@ -64,7 +67,7 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+            class="py-3 px-5 text-sm font-medium text-center bg-[#37355A] text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
           >
             Send message
           </button>

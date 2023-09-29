@@ -8,15 +8,14 @@ const Main = () => {
 
   return (
     <div id='home' className='w-screen h-screen text-center'>
-      <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
+      <div className='max-w-[1240px] w-full h-full'>
           <div>
-              <p className='uppercase text-sm tracking-widest text-gray-600'>Nice to see you</p>
-              <Draggable>
-                <div className='flex tracking-widest items-start gap-2'>
-                  <div className='w-[374px] h-[374px] rounded-full bg-black'></div>
-                  <div className='w-[374px] h-[374px] rounded-full bg-black'></div>
-                </div>
-              </Draggable>
+            <h1 className='text-[100px]'>Round</h1>
+            <h1 className='text-[100px]'>Glass</h1>
+            <h1 className='text-[100px]'>Media</h1>
+          </div>
+          <div>
+            Explain text
           </div>
       </div>
     </div>
