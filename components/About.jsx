@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const About = () => {
   return (
@@ -9,7 +10,9 @@ const About = () => {
                 <p className='uppercase text-xl tracking-widest text-[#ffffff] '>About</p>
                 <h2 className='py-4 text-slate-950 font-extrabold'>Who I am</h2>
                 <p className='py-2 text-white'>My name is Liam, I’m a passionate creative whose love for storytelling manifests itself in various digital mediums. With every project, I strive to not only capture the attention of my audiences, but to make meaningful connections and opportunities in the process.</p>
-                <p className='py-2 text-gray-600 underline cursor-pointer'>Check out m work</p>
+                <Link href='/#skills'>
+                  <p className='py-2 text-gray-600 underline cursor-pointer'>Check out m work</p>
+                </Link>
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-[#EF946C] rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-500'>
                 <img className='rounded-xl' src='https://source.unsplash.com/dS-q7-zkD9c' alt='/' />
