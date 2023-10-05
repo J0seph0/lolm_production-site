@@ -19,7 +19,7 @@ const NavBar = () => {
     <div className='fixed w-full h-20 shadow-xl z-[100]'>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 filter hue-rotate-30 bg-[#ffffff]'>
             <Image 
-                src="/../public/logo.png" 
+                src="/public/logo.png" 
                 alt="/" 
                 width='125' 
                 height='50'
