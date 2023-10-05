@@ -17,8 +17,8 @@ const About = () => {
             <Image 
                 src='/../public/portrait.jpg'
                 alt="Picture of Liam"
-                width={auto} // need to fix  this but does display pic
-                height={auto}
+                width='100'
+                height='100'
             />
             </div>
         </div>
