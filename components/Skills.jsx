@@ -13,10 +13,10 @@ function Skills() {
       <div className="max-w-[1240px] m-auto md:grid grid-cols-2 grid-rows-3 gap-8 justify-center grid-cols-[auto_minmax(0,_1fr)]">
       <h2 className="grid-cols-[auto]">Services</h2>
       <div></div>
-        <div className="w-full h-auto m-auto shadow-l shadow-[#EF946C] rounded-xl flex items-center justify-center p-4 ease-in duration-500">
+        <div className="w-auto h-auto m-auto shadow-xl shadow-[#EF946C] rounded-xl flex items-center justify-center ease-in duration-500">
           <iframe
             src="https://player.vimeo.com/video/866193669?h=2a9dbcdd3f"
-            width="640"
+            width="540"
             height="300"
             frameborder="0"
             allow="autoplay; fullscreen; picture-in-picture"
@@ -38,11 +38,11 @@ function Skills() {
           </p>
         </div>
 
-        <div className="w-full h-auto m-auto shadow-s shadow-[#EF946C] rounded-xl flex items-center justify-center p-4 ease-in duration-500">
+        <div className="w-auto h-auto m-auto shadow-xl shadow-[#EF946C] rounded-xl flex items-center justify-center ease-in duration-500">
           <iframe
             className="rounded-xl"
             src="https://player.vimeo.com/video/778298765?h=8734ea65c5"
-            width="640"
+            width="540"
             height="300"
             frameborder="0"
             allow="autoplay; fullscreen; picture-in-picture"
