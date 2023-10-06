@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const About = () => {
   return (
-    <div id='about' className='w-screen  md:h-screen p-2 flx items-center py-16 bg-[#70877F]'>
+    <div id='about' className='w-screen  md:h-screen p-2 flx items-center py-20 bg-[#70877F]'>
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
             <div className='col-span-2'>
                 <h2 className='py-4 text-[#37355A] font-extrabold'>Who I am</h2>

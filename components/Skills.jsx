@@ -10,7 +10,7 @@ function Skills() {
       id="skills"
       className="w-screen md:h-auto p-2 flex items-center py-16 bg-[#37355A]"
     >
-      <div className="max-w-[1240px] m-auto md:grid grid-cols-2 grid-rows-3 gap-8 justify-center grid-cols-[auto_minmax(0,_1fr)]">
+      <div className="max-w-[1240px] m-auto md:grid grid-cols-2 grid-rows-3 gap-8 justify-center">
       <h2 className="grid-cols-[auto]">Services</h2>
       <div></div>
         <div className="w-auto h-auto m-auto shadow-xl shadow-[#EF946C] rounded-xl flex items-center justify-center ease-in duration-500">
