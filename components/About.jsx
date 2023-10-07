@@ -15,7 +15,7 @@ const About = () => {
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-[#EF946C] rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-500'>
             <Image 
-                src='/../public/portrait.jpg'
+                src='/portrait.jpg'
                 alt="Picture of Liam"
                 width='100'
                 height='100'
