@@ -8,13 +8,13 @@ function Skills() {
   return (
     <div
       id="skills"
-      className="w-screen md:h-auto p-2 flex items-center py-16 bg-[#37355A]"
+      className="w-screen md:h-auto p-0 flex-row items-center py-16 bg-[#37355A]"
     >
-      <div className="max-w-[1240px] m-auto md:grid grid-cols-2 grid-rows-3 gap-8 justify-center">
-      <h2 className="grid-cols-[auto]">Services</h2>
-      <div></div>
+      <h2 className="ml-[150px] mb-3 text-[#EF946C]">Services</h2>
+      <div className="max-w-[1240px] h-auto m-auto md:grid grid-cols-2 grid-rows-3 gap-8">
         <div className="w-auto h-auto m-auto shadow-xl shadow-[#EF946C] rounded-xl flex items-center justify-center ease-in duration-500">
           <iframe
+            className="rounded-xl"
             src="https://player.vimeo.com/video/866193669?h=2a9dbcdd3f"
             width="540"
             height="300"
