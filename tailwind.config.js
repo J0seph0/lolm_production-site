@@ -9,6 +9,10 @@ module.exports = {
   "./src/**/*.{js,ts,jsx,tsx,mdx}",],
   theme: {
     extend: {
+      fontFamily: {
+        'sans': ['Roboto', 'Helvetica', 'Arial', 'sans-serif']
+      },
+
       cursor: {
         'fancy': 'url(hand.cur), pointer',
       }
