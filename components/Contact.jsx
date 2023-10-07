@@ -73,17 +73,17 @@ const Contact = () => {
           </button>
         </form>
         <div className="gap-[100px] h-[200px]">
-              <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
+              <div className='m-4 rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
                   <a href="https://www.instagram.com/roundglassmedia">
                   <AiOutlineInstagram />
                   </a>
               </div>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
+              <div className='m-4 rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
               <a href="https://www.facebook.com/profile.php?id=100094215166666">  
                   <AiOutlineFacebook />
                   </a>
               </div>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
+              <div className='m-4 rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
                   <FaLinkedinIn />
               </div>
               

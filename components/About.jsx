@@ -16,6 +16,24 @@ const About = () => {
             storytelling manifests itself in various digital mediums. With every
             project, I strive to not only capture the attention of my audiences,
             but to make meaningful connections and opportunities in the process.
+            </p>
+            <p className="py-2 text-[#ffffff] text-xl font-sans text">
+            My journey into the world of filmmaking began working on goofy video
+            projects in my middle school Spanish class of all places. I learned
+            I could create emotional responses with just a camera and a story.
+            Since then, I’ve built upon my skills first studying at the
+            prestigious Colorado Film School. In due course I’ve had the
+            opportunity to grow as an individual in the world of large budget
+            video production agencies, all along the way learning from some of
+            the industry’s finest. My experience has equipped me to tackle any
+            project that comes my way.
+            </p> 
+            <p className="py-2 text-[#ffffff] text-xl font-sans text">
+            The future holds endless possibilities,
+            and I'm excited to continue my cinematic journey, collaborating with
+            fellow creatives, and bringing captivating stories to life. Join me
+            on this adventure, as we dive into the depths of human emotions and
+            the infinite realms of imagination through the magic of filmmaking.
           </p>
           <Link href="/#skills">
             <p className="py-2 text-[#37355A] text-xl underline cursor-pointer">
