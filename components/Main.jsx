@@ -1,23 +1,19 @@
 import React from "react";
 import Draggable from "react-draggable";
 import Eyeglass from "./Eyeglass";
+import { Player } from '@lottiefiles/react-lottie-player';
+
 
 const Main = () => {
   return (
-    <div id="home" className="w-screen h-screen text-center">
-      <div className="max-w-[1240px] w-full h-full flex">
-        <div className="justify-center">
-        <iframe
-          src="https://player.cloudinary.com/embed/?public_id=lhbum02rgwk86q1xwbg6&cloud_name=dpjdta2yo&player[controls]=false&player[muted]=true&player[hideContextMenu]=false&player[floatingWhenNotVisible]=false&player[autoplay]=true"
-          allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
-          allowfullscreen
-          width='1920'
-          height='1080'
-          frameborder="0"
-          className=""
-          id="logoiframe"
-        ></iframe>
-        </div>
+<div id="home" className="w-screen h-screen md:h-screen flex items-center justify-center bg-[#ffffff]">
+      <div className="max-w-[1240px] w-full h-full flex justify-center items-center">
+      <Player
+        src='https://lottie.host/b6409945-8da7-4c9d-be75-eb2f49127681/aHjFQmoWNt.json'
+        className="player w-full h-full m-auto"
+        autoplay
+        keepLastFrame='true'
+      />
       </div>
     </div>
   );

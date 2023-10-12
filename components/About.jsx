@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-screen h-screen md:h-screen flx items-center py-[10%] bg-[#70877F]"
+      className="w-screen h-screen md:h-screen flex items-center bg-[#70877F]"
     >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 justify-center">
         <div className="col-span-2">
@@ -41,12 +41,13 @@ const About = () => {
             </p>
           </Link>
         </div>
-        <div className="w-full h-auto m-auto shadow-xl shadow-[#EF946C] rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-500">
+        <div className="w-full h-auto m-auto shadow-xl shadow-[5px_15px_60px_10px_rgba(55,52,90,1)] rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-500">
           <Image
             src="/portrait.jpg"
             alt="Picture of Liam"
             width="640"
             height="300"
+            className="rounded-xl"
           />
         </div>
       </div>

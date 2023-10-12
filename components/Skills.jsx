@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./skills.module.css";
+import Link from "next/link";
 
 //head this with project -> services
 
@@ -11,7 +12,7 @@ function Skills() {
       className="w-screen md:h-auto p-0 flex-row items-center py-16 bg-[#37355A]"
     >
       <h2 className="ml-[18%] mb-3 text-[#EF946C]">Services</h2>
-      <div className="max-w-[1240px] h-auto m-auto md:grid grid-cols-2 grid-rows-3 gap-8">
+      <div className="max-w-[1240px] m-auto md:grid grid-cols-2 grid-rows-2 gap-8">
         <div className="w-auto h-auto m-auto shadow-xl shadow-[#EF946C] rounded-xl flex items-center justify-center ease-in duration-500">
           <iframe
             className="rounded-xl"
@@ -25,7 +26,7 @@ function Skills() {
         </div>
         <div className="">
           <h2 className="text-[#EF946C] ">Video production</h2>
-          <p className="text-[#70877F] py-10">
+          <p className="text-[#ffffff] py-10">
             Unlock the full potential of visual storytelling with comprehensive
             video production services. From concept to final cut, utilize a
             complete suite of creative and technical solutions to bring your
@@ -51,7 +52,7 @@ function Skills() {
         </div>
         <div>
           <h2 className="text-[#EF946C]">Post-production</h2>
-          <p className="text-[#70877F] py-10">
+          <p className="text-[#ffffff] py-10">
             Take your video content to the next level with professional
             post-production services. Take advantage of a range of services,
             including video editing, color correction, sound design, logo
@@ -61,6 +62,7 @@ function Skills() {
             and impactful videos that stand out. Let's give your videos the
             final flourish they deserve.
           </p>
+          <a href="#contact" className="text-[#ffffff] text-m underline cursor-pointer">Message Me</a>
         </div>
       </div>
     </div>
