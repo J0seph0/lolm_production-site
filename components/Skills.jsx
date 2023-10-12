@@ -11,7 +11,7 @@ function Skills() {
       id="skills"
       className="w-screen md:h-auto p-0 flex-row items-center py-16 bg-[#37355A]"
     >
-      <h2 className="ml-[18%] mb-3 text-[#EF946C]">Services</h2>
+      <h2 className="ml-[12%] mb-10 text-[#EF946C]">Services</h2>
       <div className="max-w-[1240px] m-auto md:grid grid-cols-2 grid-rows-2 gap-8">
         <div className="w-auto h-auto m-auto shadow-xl shadow-[#EF946C] rounded-xl flex items-center justify-center ease-in duration-500">
           <iframe

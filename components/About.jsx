@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-screen h-screen md:h-screen flex items-center bg-[#70877F]"
+      className="w-screen h-flex md:h-screen flex items-center bg-[#70877F]"
     >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 justify-center">
         <div className="col-span-2">
@@ -47,7 +47,7 @@ const About = () => {
             alt="Picture of Liam"
             width="640"
             height="300"
-            className="rounded-xl"
+            className="rounded-xl w-[100%] h-[100%]"
           />
         </div>
       </div>
