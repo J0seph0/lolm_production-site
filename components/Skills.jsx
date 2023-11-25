@@ -13,7 +13,7 @@ function Skills() {
     >
       <h2 className="ml-[12%] mb-10 text-[#EF946C]">Services</h2>
       <div className="max-w-[1240px] m-auto md:grid grid-cols-2 grid-rows-2 gap-8">
-        <div className="w-auto h-auto m-auto shadow-lg shadow-[#EF946C] rounded-xl flex items-center justify-center ease-in duration-500">
+        <div className="w-auto h-auto m-auto shadow-lg shadow-[#EF946C] rounded-xl flex items-center justify-center ease-in duration-500 sm: shadow-none">
           <iframe
             className="rounded-xl"
             src="https://player.vimeo.com/video/866193669?h=2a9dbcdd3f"
@@ -39,7 +39,7 @@ function Skills() {
           </p>
         </div>
 
-        <div className="w-auto h-auto m-auto shadow-lg shadow-[#EF946C] rounded-xl flex items-center justify-center ease-in duration-500">
+        <div className="w-auto h-auto m-auto shadow-lg shadow-[#EF946C] rounded-xl flex items-center justify-center ease-in duration-500 sm: shadow-none">
           <iframe
             className="rounded-xl"
             src="https://player.vimeo.com/video/778298765?h=8734ea65c5"
