@@ -22,7 +22,7 @@ const NavBar = () => {
             <Image 
                 src="/logo.png" 
                 alt="/" 
-                width='100' 
+                width='80' 
                 height='35'
                 href
             />
