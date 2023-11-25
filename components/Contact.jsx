@@ -6,10 +6,10 @@ const Contact = () => {
     <div id="contact" className="w-screen h-flex text-center">
       <div className="w-full h-full mx-auto p-2 flex justify-center items-center gap-5">
         <div id="contactText" className="w-[400px]">
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900">
             Have a vision?
           </h2>
-          <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
+          <p class="mb-8 lg:mb-16 font-light text-center text-gray-500  sm:text-xl">
            Reach out to discuss how we can make it a reality.
           </p>
         </div>
@@ -17,7 +17,7 @@ const Contact = () => {
           <div>
             <label
               for="email"
-              class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              class="block mb-2 text-sm font-medium text-gray-900 "
             >
             </label>
             <input
@@ -34,7 +34,7 @@ const Contact = () => {
           <div>
             <label
               for="subject"
-              class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              class="block mb-2 text-sm font-medium text-gray-900 "
             >
             </label>
             <input
@@ -52,7 +52,7 @@ const Contact = () => {
           <div class="sm:col-span-2">
             <label
               for="message"
-              class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
+              class="block mb-2 text-sm font-medium text-gray-900 "
             >
             </label>
             <textarea
