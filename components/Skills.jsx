@@ -13,9 +13,9 @@ function Skills() {
     >
       <h2 className="ml-[12%] mb-10 text-[#EF946C]">Services</h2>
       <div className="max-w-[1240px] m-auto md:grid grid-cols-2 grid-rows-2 gap-8">
-        <div className="w-auto h-auto m-auto shadow-lg shadow-[#EF946C] rounded-xl flex items-center justify-center ease-in duration-500 sm: shadow-none">
+        <div className="w-auto h-auto rounded-xl flex items-center justify-center ease-in duration-500 sm:">
           <iframe
-            className="rounded-xl"
+            className="rounded-xl shadow-lg shadow-[#EF946C]"
             src="https://player.vimeo.com/video/866193669?h=2a9dbcdd3f"
             width="540"
             height="300"
@@ -25,8 +25,8 @@ function Skills() {
           ></iframe>
         </div>
         <div className="">
-          <h2 className="text-[#EF946C] ">Video production</h2>
-          <p className="text-[#ffffff] py-10">
+          <h2 className="text-[#EF946C] px-2 py-2 ">Video production</h2>
+          <p className="text-[#ffffff] py-10 px-2">
             Unlock the full potential of visual storytelling with comprehensive
             video production services. From concept to final cut, utilize a
             complete suite of creative and technical solutions to bring your
@@ -39,9 +39,9 @@ function Skills() {
           </p>
         </div>
 
-        <div className="w-auto h-auto m-auto shadow-lg shadow-[#EF946C] rounded-xl flex items-center justify-center ease-in duration-500 sm: shadow-none">
+        <div className="w-auto h-auto rounded-xl flex items-center justify-center ease-in duration-500">
           <iframe
-            className="rounded-xl"
+            className="rounded-xl shadow-lg shadow-[#EF946C]"
             src="https://player.vimeo.com/video/778298765?h=8734ea65c5"
             width="540"
             height="300"
@@ -52,7 +52,7 @@ function Skills() {
         </div>
         <div>
           <h2 className="text-[#EF946C]">Post-production</h2>
-          <p className="text-[#ffffff] py-10">
+          <p className="text-[#ffffff] py-10 px-2">
             Take your video content to the next level with professional
             post-production services. Take advantage of a range of services,
             including video editing, color correction, sound design, logo
@@ -62,7 +62,7 @@ function Skills() {
             and impactful videos that stand out. Let's give your videos the
             final flourish they deserve.
           </p>
-          <a href="#contact" className="text-[#ffffff] text-m underline cursor-pointer">Message Me</a>
+          <a href="#contact" className="text-[#ffffff] px-2 text-m underline cursor-pointer">Message Me</a>
         </div>
       </div>
     </div>
