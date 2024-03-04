@@ -1,11 +1,19 @@
 import React from "react";
-import Image from "next/image";
-import styles from "./skills.module.css";
-import Link from "next/link";
+import {motion} from "framer-motion";
+import { useInView } from 'react-intersection-observer';
 
 //head this with project -> services
 
 function Skills() {
+
+  const [ref, inView] = useInView({
+    triggerOnce: false, // Change to false if you want the animation to trigger again whenever it comes in view
+  });
+
+  const [ref2, inView2] = useInView({
+    triggerOnce: false, // Change to false if you want the animation to trigger again whenever it comes in view
+  });
+
   return (
     <div
       id="skills"
@@ -25,8 +33,22 @@ function Skills() {
           ></iframe>
         </div>
         <div className="">
-          <h2 className="text-[#EF946C] px-2 py-2 ">Video production</h2>
-          <p className="text-[#ffffff] py-10 px-2">
+          <motion.h2 
+            className="text-[#EF946C] px-2 py-2"
+            ref={ref}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: inView ? 1 : 0 }}
+            transition={{ delay: 0.2, duration: 1}}
+          >
+            Video production
+            </motion.h2>
+          <motion.div
+              ref={ref}
+              initial={{ opacity: 0, x: 500 }} 
+              animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 500 }} 
+              transition={{ delay: 0.4, duration: 1}}
+            >
+            <p className="text-[#ffffff] py-10 px-2">
             Unlock the full potential of visual storytelling with comprehensive
             video production services. From concept to final cut, utilize a
             complete suite of creative and technical solutions to bring your
@@ -34,9 +56,10 @@ function Skills() {
             videos, engaging promotional content, documentary-style
             storytelling, or any other video production needs, transform your
             vision into captivating, cinematic reality. Deliver videos that
-            inspire, inform, and leave a lasting impression. Let's collaborate
-            and create visual experiences that truly shine.
+              inspire, inform, and leave a lasting impression. Let's collaborate
+              and create visual experiences that truly shine.
           </p>
+          </motion.div>
         </div>
 
         <div className="w-auto h-auto rounded-xl flex items-center justify-center ease-in duration-500">
@@ -51,7 +74,21 @@ function Skills() {
           ></iframe>
         </div>
         <div>
-          <h2 className="text-[#EF946C]">Post-production</h2>
+          <motion.h2 
+            className="text-[#EF946C]"
+            ref={ref2}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: inView2 ? 1 : 0 }}
+            transition={{ delay: 0.4, duration: 1}}
+          >
+            Post-production
+            </motion.h2>
+          <motion.div
+              ref={ref2}
+              initial={{ opacity: 0, x: 500 }} 
+              animate={{ opacity: inView2 ? 1 : 0, x: inView2 ? 0 : 500 }} 
+              transition={{ delay: 0.4, duration: 1}}
+            >
           <p className="text-[#ffffff] py-10 px-2">
             Take your video content to the next level with professional
             post-production services. Take advantage of a range of services,
@@ -63,6 +100,7 @@ function Skills() {
             final flourish they deserve.
           </p>
           <a href="#contact" className="text-[#ffffff] px-2 text-m underline cursor-pointer">Message Me</a>
+          </motion.div>
         </div>
       </div>
     </div>

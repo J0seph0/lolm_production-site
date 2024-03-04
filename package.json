@@ -21,14 +21,17 @@
     "@lottiefiles/react-lottie-player": "^3.5.3",
     "cloudinary": "^1.41.0",
     "cypress": "^10.0.3",
+    "framer-motion": "^11.0.8",
     "netlify-plugin-cloudinary": "^1.12.0",
     "next": "^13.4.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-draggable": "^4.4.5",
     "react-icons": "^4.10.1",
+    "react-intersection-observer": "^9.8.1",
     "react-lottie-player": "^1.5.5",
-    "react-player": "^2.13.0"
+    "react-player": "^2.13.0",
+    "react-scroll-motion": "^0.3.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
