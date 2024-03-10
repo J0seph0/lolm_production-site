@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-screen md:h-screen flex items-center bg-[#70877F]"
+      className="w-screen md:h-auto flex items-center bg-[#70877F] p-0 py-16"
     >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 justify-center">
         <div className="col-span-2">

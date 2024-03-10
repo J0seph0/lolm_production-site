@@ -45,7 +45,7 @@ function Skills() {
           <motion.div
               ref={ref}
               initial={{ opacity: 0, x: 500 }} 
-              animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 500 }} 
+              animate={{ opacity: inView ? 1 : 0, x: inView ? 1 : 0 }} 
               transition={{ delay: 0.4, duration: 1}}
             >
             <p className="text-[#ffffff] py-10 px-2">
@@ -86,7 +86,7 @@ function Skills() {
           <motion.div
               ref={ref2}
               initial={{ opacity: 0, x: 500 }} 
-              animate={{ opacity: inView2 ? 1 : 0, x: inView2 ? 0 : 500 }} 
+              animate={{ opacity: inView2 ? 1 : 0, x: inView2 ? 1 : 0 }} 
               transition={{ delay: 0.4, duration: 1}}
             >
           <p className="text-[#ffffff] py-10 px-2">
