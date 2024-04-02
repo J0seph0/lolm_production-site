@@ -13,7 +13,23 @@ const NavBar = () => {
     setNav(!nav);
   };
 
-  return (
+
+const [showNav, setShowNav] = useState(true);
+const [scrollPos, setScrollPos] = useState(0);
+
+useEffect(() => {
+  const onScroll = () => {
+    setShowNav(window.scrollY <= scrollPos);
+    setScrollPos(window.scrollY);
+  };
+
+  window.addEventListener('scroll', onScroll);
+
+  return () => window.removeEventListener('scroll', onScroll);
+}, [scrollPos]);
+
+
+  return showNav && (
     <div className="fixed w-full h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 filter hue-rotate-30 bg-[#ffffff]">
         <a href="#home">
