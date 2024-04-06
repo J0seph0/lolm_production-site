@@ -1,4 +1,5 @@
 import React from "react";
+import ReactPlayer from 'react-player'
 import {motion} from "framer-motion";
 import { useInView } from 'react-intersection-observer';
 
@@ -19,22 +20,23 @@ function Skills() {
       id="skills"
       className="w-screen md:h-auto p-0 flex-row items-center py-16 bg-[#37355A]"
     >
-      <h2 className="ml-[12%] mb-10 text-[#EF946C]">Services</h2>
+      <h1 className="ml-[12%] mb-10 text-[#EF946C]">Services</h1>
       <div className="max-w-[1240px] m-auto md:grid grid-cols-2 grid-rows-2 gap-8">
-        <div className="w-auto h-auto rounded-xl flex items-center justify-center ease-in duration-500 sm:">
+          
+          <div className="flex items-center justify-center">
+          <div className="relative w-[70%] h-[100%] md:w-[77.33%] md:h-[90.33%]">
           <iframe
-            className="rounded-xl shadow-lg shadow-[#EF946C]"
+            className="w-full h-full shadow-lg shadow-[#EF946C] rounded-xl"
             src="https://player.vimeo.com/video/866193669?h=2a9dbcdd3f"
-            width="540"
-            height="300"
-            frameborder="0"
+            width="100%"
+            height="100%"
             allow="autoplay; fullscreen; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
+          />
+          </div>
+          </div>
         <div className="">
           <motion.h2 
-            className="text-[#EF946C] px-2 py-2"
+            className="text-[#EF946C] ml-1 mt-5"
             ref={ref}
             initial={{ opacity: 0 }}
             animate={{ opacity: inView ? 1 : 0 }}
@@ -48,7 +50,7 @@ function Skills() {
               animate={{ opacity: inView ? 1 : 0, x: inView ? 1 : 0 }} 
               transition={{ delay: 0.4, duration: 1}}
             >
-            <p className="text-[#ffffff] py-10 px-2">
+            <p className="text-[#ffffff] py-5 px-2">
             Unlock the full potential of visual storytelling with comprehensive
             video production services. From concept to final cut, utilize a
             complete suite of creative and technical solutions to bring your
@@ -61,21 +63,22 @@ function Skills() {
           </p>
           </motion.div>
         </div>
-
-        <div className="w-auto h-auto rounded-xl flex items-center justify-center ease-in duration-500">
+        <div className="flex justify-center items-center">
+        <div className="flex relative w-[70%] h-[100%] md:w-[77.33%] md:h-[90.33%]">
           <iframe
             className="rounded-xl shadow-lg shadow-[#EF946C]"
             src="https://player.vimeo.com/video/778298765?h=8734ea65c5"
-            width="540"
-            height="300"
+            width="100%"
+            height="100%"
             frameborder="0"
             allow="autoplay; fullscreen; picture-in-picture"
             allowfullscreen
           ></iframe>
         </div>
+        </div>
         <div>
           <motion.h2 
-            className="text-[#EF946C]"
+            className="text-[#EF946C] ml-1 mt-5"
             ref={ref2}
             initial={{ opacity: 0 }}
             animate={{ opacity: inView2 ? 1 : 0 }}
@@ -83,13 +86,13 @@ function Skills() {
           >
             Post-production
             </motion.h2>
-          <motion.div
+          <motion.p
+              className="text-[#ffffff] py-5 px-2"
               ref={ref2}
               initial={{ opacity: 0, x: 500 }} 
               animate={{ opacity: inView2 ? 1 : 0, x: inView2 ? 1 : 0 }} 
               transition={{ delay: 0.4, duration: 1}}
             >
-          <p className="text-[#ffffff] py-10 px-2">
             Take your video content to the next level with professional
             post-production services. Take advantage of a range of services,
             including video editing, color correction, sound design, logo
@@ -98,9 +101,10 @@ function Skills() {
             eye for detail, we transform your visuals into compelling, seamless,
             and impactful videos that stand out. Let's give your videos the
             final flourish they deserve.
-          </p>
+          
+          
+          </motion.p>
           <a href="#contact" className="text-[#ffffff] px-2 text-m underline cursor-pointer">Message Me</a>
-          </motion.div>
         </div>
       </div>
     </div>
