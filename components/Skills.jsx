@@ -36,7 +36,7 @@ function Skills() {
           </div>
         <div className="overflow-hidden">
           <motion.h2 
-            className="text-[#EF946C] ml-1 mt-5"
+            className="text-[#EF946C] mt-5 m-2"
             ref={ref}
             initial={{ opacity: 0 }}
             animate={{ opacity: inView ? 1 : 0 }}
@@ -51,7 +51,7 @@ function Skills() {
               animate={{ opacity: inView ? 1 : 0, x: inView ? 1 : 0 }} 
               transition={{ delay: 0.4, duration: 1}}
             >
-            <p className="text-[#ffffff] py-5 px-2">
+            <p className="text-[#ffffff] py-5 px-2 m-2">
             Unlock the full potential of visual storytelling with comprehensive
             video production services. From concept to final cut, utilize a
             complete suite of creative and technical solutions to bring your
@@ -80,7 +80,7 @@ function Skills() {
         </div>
         <div className="overflow-hidden">
           <motion.h2 
-            className="text-[#EF946C] ml-1 mt-5"
+            className="text-[#EF946C] mt-5 m-2"
             ref={ref2}
             initial={{ opacity: 0 }}
             animate={{ opacity: inView2 ? 1 : 0 }}
@@ -89,7 +89,7 @@ function Skills() {
             Post-production
             </motion.h2>
           <motion.p
-              className="text-[#ffffff] py-5 px-2"
+              className="text-[#ffffff] py-5 px-2 m-2"
               ref={ref2}
               initial={{ opacity: 0, x: 700 }} 
               animate={{ opacity: inView2 ? 1 : 0, x: inView2 ? 1 : 0 }} 
@@ -106,7 +106,7 @@ function Skills() {
           
           
           </motion.p>
-          <a href="#contact" className="text-[#ffffff] px-2 text-m underline cursor-pointer">Message Me</a>
+          <a href="#contact" className="text-[#ffffff] px-2 text-m underline cursor-pointer m-2">Message Me</a>
         </div>
       </div>
     </div>
