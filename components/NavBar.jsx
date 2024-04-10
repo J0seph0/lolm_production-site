@@ -19,8 +19,15 @@ const [scrollPos, setScrollPos] = useState(0);
 
 useEffect(() => {
   const onScroll = () => {
-    setShowNav(window.scrollY <= scrollPos);
-    setScrollPos(window.scrollY);
+    const currentScrollPos = window.scrollY;
+    const scrollDiff = scrollPos - currentScrollPos;
+
+    // Only update showNav if the difference is greater than the threshold
+    if (Math.abs(scrollDiff) > 20) {
+      setShowNav(scrollDiff >= 0);
+    }
+
+    setScrollPos(currentScrollPos);
   };
 
   window.addEventListener('scroll', onScroll);

@@ -24,7 +24,7 @@ function Skills() {
       <div className="max-w-[1240px] m-auto md:grid grid-cols-2 grid-rows-2 gap-8">
           
           <div className="flex items-center justify-center">
-          <div className="relative w-[70%] h-[100%] md:w-[77.33%] md:h-[90.33%]">
+          <div className="relative w-[69%] h-[100%] md:w-[77.33%] md:h-[90.33%]">
           <iframe
             className="w-full h-full shadow-lg shadow-[#EF946C] rounded-xl"
             src="https://player.vimeo.com/video/866193669?h=2a9dbcdd3f"
@@ -34,7 +34,7 @@ function Skills() {
           />
           </div>
           </div>
-        <div className="">
+        <div className="overflow-hidden">
           <motion.h2 
             className="text-[#EF946C] ml-1 mt-5"
             ref={ref}
@@ -44,9 +44,10 @@ function Skills() {
           >
             Video production
             </motion.h2>
+
           <motion.div
               ref={ref}
-              initial={{ opacity: 0, x: 500 }} 
+              initial={{ opacity: 0, x: 700 }} 
               animate={{ opacity: inView ? 1 : 0, x: inView ? 1 : 0 }} 
               transition={{ delay: 0.4, duration: 1}}
             >
@@ -62,9 +63,10 @@ function Skills() {
               and create visual experiences that truly shine.
           </p>
           </motion.div>
+
         </div>
         <div className="flex justify-center items-center">
-        <div className="flex relative w-[70%] h-[100%] md:w-[77.33%] md:h-[90.33%]">
+        <div className="flex relative w-[69%] h-[100%] md:w-[77.33%] md:h-[90.33%]">
           <iframe
             className="rounded-xl shadow-lg shadow-[#EF946C]"
             src="https://player.vimeo.com/video/778298765?h=8734ea65c5"
@@ -76,7 +78,7 @@ function Skills() {
           ></iframe>
         </div>
         </div>
-        <div>
+        <div className="overflow-hidden">
           <motion.h2 
             className="text-[#EF946C] ml-1 mt-5"
             ref={ref2}
@@ -89,7 +91,7 @@ function Skills() {
           <motion.p
               className="text-[#ffffff] py-5 px-2"
               ref={ref2}
-              initial={{ opacity: 0, x: 500 }} 
+              initial={{ opacity: 0, x: 700 }} 
               animate={{ opacity: inView2 ? 1 : 0, x: inView2 ? 1 : 0 }} 
               transition={{ delay: 0.4, duration: 1}}
             >
