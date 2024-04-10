@@ -24,7 +24,7 @@ function Skills() {
       <div className="max-w-[1240px] m-auto md:grid grid-cols-2 grid-rows-2 gap-8">
           
           <div className="flex items-center justify-center">
-          <div className="relative w-[69%] h-[100%] md:w-[77.33%] md:h-[90.33%]">
+          <div className="relative w-[69%] h-[100%] md:w-[90%] md:h-[69%] lg:w-[77.33%] lg:h-[90.33%]">
           <iframe
             className="w-full h-full shadow-lg shadow-[#EF946C] rounded-xl"
             src="https://player.vimeo.com/video/866193669?h=2a9dbcdd3f"
@@ -66,7 +66,7 @@ function Skills() {
 
         </div>
         <div className="flex justify-center items-center">
-        <div className="flex relative w-[69%] h-[100%] md:w-[77.33%] md:h-[90.33%]">
+        <div className="flex relative w-[69%] h-[100%] md:w-[90%] md:h-[69%] lg:w-[77.33%] lg:h-[90.33%]">
           <iframe
             className="rounded-xl shadow-lg shadow-[#EF946C]"
             src="https://player.vimeo.com/video/778298765?h=8734ea65c5"
