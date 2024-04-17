@@ -35,8 +35,8 @@ const About = () => {
             we dive into the depths of human emotions and the infinite realms of
             imagination through the magic of filmmaking.
           </p>
-          <Link href="/#skills">
-            <p className="py-2 text-[#37355A] text-xl underline cursor-pointer m-2">
+          <Link href="/works">
+            <p className="py-2 text-[#37355A] text-xl underline cursor-pointer m-2 hover:scale-100">
               Services
             </p>
           </Link>
