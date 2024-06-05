@@ -14,6 +14,15 @@ const NavBar = () => {
   };
 
 
+  useEffect(() => {
+    if (nav) {
+      document.body.classList.add('overflow-hidden');
+    } else {
+      document.body.classList.remove('overflow-hidden');
+    }
+  }, [nav]);
+
+
 const [showNav, setShowNav] = useState(true);
 const [scrollPos, setScrollPos] = useState(0);
 
@@ -69,7 +78,7 @@ useEffect(() => {
 
       <div
         className={
-          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
+          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70 " : ""
         }
       >
         <div
@@ -102,16 +111,16 @@ useEffect(() => {
           </div>
           <div>
             <ul>
-              <Link href="/">
+              <Link href="/" onClick={handleNav}>
                 <li className="py-4 text-sm">Home</li>
               </Link>
-              <Link href="/#about">
+              <Link href="/#about" onClick={handleNav}>
                 <li className="py-4 text-sm">About</li>
               </Link>
-              <Link href="/#skills">
+              <Link href="/#skills" onClick={handleNav}>
                 <li className="py-4 text-sm">Skills</li>
               </Link>
-              <Link href="/#contact">
+              <Link href="/#contact" onClick={handleNav}>
                 <li className="py-4 text-sm">Contact Me</li>
               </Link>
             </ul>

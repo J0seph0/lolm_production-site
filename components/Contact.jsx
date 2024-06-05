@@ -13,7 +13,7 @@ const Contact = () => {
            Reach out to discuss how we can make it a reality.
           </p>
         </div>
-        <form action="https://formsubmit.co/nothing" method="POST" class="space-y-8 w-[400px]">
+        <form action="https://formsubmit.co/29b0e139623323159daf302a15c512e7" method="POST" class="space-y-8 w-[400px]">
           <div>
             <label
               for="email"
