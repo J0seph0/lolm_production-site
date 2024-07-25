@@ -27,7 +27,7 @@ function Skills() {
           <div className="relative w-[69%] h-[100%] md:w-[90%] md:h-[69%] lg:w-[77.33%] lg:h-[90.33%]">
           <iframe
             className="w-full h-full shadow-lg shadow-[#EF946C] rounded-xl"
-            src="https://player.vimeo.com/video/866193669?h=2a9dbcdd3f"
+            src="https://player.vimeo.com/video/918728388"
             width="100%"
             height="100%"
             allow="autoplay; fullscreen; picture-in-picture"

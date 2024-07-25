@@ -67,7 +67,7 @@ const About = () => {
           </motion.p>
           <Link href="/works">
             <p className="py-2 text-[#37355A] text-xl underline cursor-pointer m-2 hover:scale-100">
-              Services
+              More Work
             </p>
           </Link>
         </div>
