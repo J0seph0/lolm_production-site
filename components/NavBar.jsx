@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { handleClientScriptLoad } from "next/script";
 
-const NavBar = () => {
+const NavBar = ({ isDifferentPage }) => {
   const [nav, setNav] = useState(false);
 
   const handleNav = () => {
@@ -48,7 +48,7 @@ useEffect(() => {
   return showNav && (
     <div className="fixed w-full h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 filter hue-rotate-30 bg-[#ffffff]">
-        <a href="#home">
+        <a href={isDifferentPage ? "/" : "#home"}>
           <Image src="/logo.png" alt="/" width="80" height="35" href />
         </a>
         <div>

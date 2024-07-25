@@ -72,9 +72,9 @@ function Skills() {
             src="https://player.vimeo.com/video/778298765?h=8734ea65c5"
             width="100%"
             height="100%"
-            frameborder="0"
+            frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
         </div>
