@@ -27,6 +27,7 @@ const [showNav, setShowNav] = useState(true);
 const [scrollPos, setScrollPos] = useState(0);
 
 useEffect(() => {
+  if(!isDifferentPage) {
   const onScroll = () => {
     const currentScrollPos = window.scrollY;
     const scrollDiff = scrollPos - currentScrollPos;
@@ -42,7 +43,8 @@ useEffect(() => {
   window.addEventListener('scroll', onScroll);
 
   return () => window.removeEventListener('scroll', onScroll);
-}, [scrollPos]);
+}
+}, [scrollPos, isDifferentPage]);
 
 
   return showNav && (
