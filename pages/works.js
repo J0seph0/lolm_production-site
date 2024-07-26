@@ -37,7 +37,7 @@ const works = () => {
         <h1 className="text-7xl text-white font-bold w-fit relative" style={{ left: '80px' }}>S</h1>
         </div>
         {videos.map((video, i) => (
-          <div key={i} className="w-full h-full p-2">
+          <div key={i} className="w-full h-full p-2 transform transition-transform duration-300 hover:scale-105">
             <iframe
               className="w-full h-full rounded-sm"
               src={video.url}
