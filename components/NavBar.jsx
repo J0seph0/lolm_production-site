@@ -8,6 +8,9 @@ import { handleClientScriptLoad } from "next/script";
 
 const NavBar = ({ isDifferentPage }) => {
   const [nav, setNav] = useState(false);
+  const [showNav, setShowNav] = useState(true);
+  const [scrollPos, setScrollPos] = useState(0);
+
 
   const handleNav = () => {
     setNav(!nav);
@@ -22,9 +25,6 @@ const NavBar = ({ isDifferentPage }) => {
     }
   }, [nav]);
 
-
-const [showNav, setShowNav] = useState(true);
-const [scrollPos, setScrollPos] = useState(0);
 
 useEffect(() => {
   if(!isDifferentPage) {
@@ -47,8 +47,8 @@ useEffect(() => {
 }, [scrollPos, isDifferentPage]);
 
 
-  return showNav && (
-    <div className="fixed w-full h-20 shadow-xl z-[100]">
+  return (
+    <div className={`fixed w-full h-20 shadow-xl z-[100] transition-transform duration-300 ${showNav ? 'transform-none' : '-translate-y-full'}`}>
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 filter hue-rotate-30 bg-[#ffffff]">
         <a href={isDifferentPage ? "/" : "#home"}>
           <Image src="/logo.png" alt="/" width="80" height="35" href />
